@@ -29,7 +29,7 @@ Database:
 MongoDB Atlas
 
 # Greetings!
-This is Dentalism, a booking web application that I developed in about four days. The tech stack I used includes **React.js, TypeScript, TailwindCSS, Tanstack, Webpack**, and **FullCalendar** on the frontend, and **Node.js** with **TypeScript** on the backend. For the database, I used the free **MongoDB** Atlas service.
+This is Dentalism, a booking web application that I developed in about five days. The tech stack I used includes **React.js, TypeScript, TailwindCSS, Tanstack, Webpack**, and **FullCalendar** on the frontend, and **Node.js** with **TypeScript** on the backend. For the database, I used the free **MongoDB** Atlas service.
 
 # Application Flow
 
