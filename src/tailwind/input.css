@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Poppins'; /*Can be any text*/
+  src: url('../../assets/fonts/Poppins-Regular.ttf');
+}
+
+/* Enhancement */
+input, select {
+  font-size: .90rem;
+  width: 100%;
+  margin-bottom: 20px;
+  --tw-ring-shadow: 0 0 #000 !important;
+  @apply rounded-md py-2 px-4 border-[1px] text-slate-500
+}
+
+input:focus {
+  outline-width: 0;
+  /* @apply border-b-2 */
+}
+
+select:focus {
+  outline-width: 0
+}
+
+body {
+  @apply font-[Poppins] bg-[#ececec]
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animated {
+  animation: fadeInAnimation ease 0.5s;
+  animation-iteration-count: 1;
+}
+
+
+/* Dental CSS */
+.page-wrapper {
+  @apply max-w-[100%] md:max-w-[90%] xl:max-w-[70%] m-auto
+}
+
+.landing-header {
+  background-image: linear-gradient(272deg, #1F4288 30%, white 30%);
+}
+
+.frozen-wrapper {
+  @apply bg-white bg-opacity-50 rounded-lg border-2 px-10 pt-8 pb-5 w-full 
+}
+
+
+/* FULL CALENDAR CUSTOMATION */
+.fc-theme-standard td, .fc-theme-standard th  {
+  @apply border-primary border-[1px]
+}
+
+.fc-timegrid-axis {
+  @apply bg-primary
+}
+
+.fc-daygrid-day-events, .fc-timegrid-divider, td.presentation.fc-scroller-harness {
+  @apply hidden
+}
+
+.fc .fc-scrollgrid-section{
+  @apply h-0
+}
+
+.fc-direction-ltr .fc-timegrid-slot-label-frame {
+  @apply text-center
+}
+
+.fc-col-header-cell-cushion {
+  @apply text-[10px] sm:text-[14px]
+}
+
+.fc-daygrid-body.fc-daygrid-body-unbalanced.fc-daygrid-body-natural{
+  @apply hidden
+}
+
+.fc-direction-ltr .fc-timegrid-slot-label-frame {
+  @apply text-white
+}
+
+.fc-theme-standard .fc-scrollgrid {
+  @apply border-primary border-l-2 border-t-2
+}
+
+th .fc-scrollgrid-sync-inner {
+  @apply bg-primary text-white
+}
+
+.fc-event-main {
+  @apply bg-primary/30 font-bold
+}
+
+.fc .fc-timegrid-col.fc-day-today {
+  @apply  bg-[#42b9c7] bg-opacity-45
+}
+
+
+.fc-toolbar-title {
+  @apply text-primary !text-[16px] sm:!text-[25px] px-2 sm:px-0
+}
+
+.fc-day {
+  @apply bg-white
+}
+
+.fc-day-sun {
+  @apply bg-slate-200
+}
+.fc-day-sat {
+  @apply bg-slate-200
+}
+
+
+.fc .fc-button-primary {
+  @apply bg-primary uppercase text-sm
+}
+
+.fc-daygrid-dot-event {
+  @apply bg-primary/90 bg-opacity-90 text-white hover:bg-primary cursor-pointer
+}
+
+/* Date Picker Customization */
+.react-datepicker__header {
+  @apply !bg-primary/90 !text-white
+}
+
+.react-datepicker__current-month, .react-datepicker__day-names, .react-datepicker__day-name {
+  @apply !text-white
+}
+
+.react-datepicker {
+  @apply !font-[Poppins]
+}
