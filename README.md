@@ -45,7 +45,7 @@ Once logged in, users are directed to a dashboard that displays their upcoming a
 The application also has route guards to protect certain routes. If users do not have a valid token stored in their cookies, they cannot access protected areas.
 
 # Server and Deployment
-I deployed this application in AWS EKS (Elastic Kubernetes Service) with two load balancers for external access. However, I was not able to deploy ingress because it would require purchasing a domain.
+I deployed this application in AWS EKS (Elastic Kubernetes Service) with two load balancers for external access. However, I was not able to deploy ingress because it would require purchasing a domain. I was not able to implement the Let's Encrypt for HTTPS, but rest assured the website is safe.
 
 
 ### 🔗 Video Link
