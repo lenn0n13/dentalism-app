@@ -1,5 +1,6 @@
-# Dentalism Booking App URL
-### 🔗 http://ab5addfedbad9481c9e33338154bd21c-743940130.ap-southeast-2.elb.amazonaws.com:30000
+![](https://raw.githubusercontent.com/lenn0n13/dentalism-app/refs/heads/master/SS.png)
+# Dentalism Booking App
+### 🔗 Link: http://ab5addfedbad9481c9e33338154bd21c-743940130.ap-southeast-2.elb.amazonaws.com:30000
 
 
 ### ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) Source Code
