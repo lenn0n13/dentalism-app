@@ -47,4 +47,5 @@ The application also has route guards to protect certain routes. If users do not
 I deployed this application in AWS EKS (Elastic Kubernetes Service) with two load balancers for external access. However, I was not able to deploy ingress because it would require purchasing a domain.
 
 
-## 🔗 Video Link: https://drive.google.com/file/d/1fcLPgwAlHTKWVepDM8pgE7sGhM6-Zqqi/view?usp=sharing
+### 🔗 Video Link
+## https://drive.google.com/file/d/1fcLPgwAlHTKWVepDM8pgE7sGhM6-Zqqi/view?usp=sharing
