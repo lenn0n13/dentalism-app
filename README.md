@@ -1,6 +1,6 @@
-### Simple Front-End Web Development Boilerplate 
+### Dentalism Web App
 
-A boilerplate for starting a new project using the following technologies:
+Using the following technologies:
 
 
 ⭐ React 18
@@ -16,3 +16,7 @@ A boilerplate for starting a new project using the following technologies:
 ⭐ DotENV
 
 ⭐ Custom Hooks
+
+⭐ FullCalendar
+
+⭐ React DatePicker
